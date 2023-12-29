@@ -5,6 +5,10 @@ import { useFonts } from "expo-font";
 
 // Screen
 import Welcome from "./screen/Welcome";
+import Home from "./screen/Home";
+import CoffeeDetails from "./screen/CoffeeDetails";
+import CoffeeOrder from "./screen/CoffeeOrder";
+import CoffeeDelivery from "./screen/CoffeeDelivery";
 
 const Stack = createNativeStackNavigator();
 
@@ -25,6 +29,34 @@ export default function App() {
           <Stack.Screen
             name="Welcome"
             component={Welcome}
+            options={{
+              headerShown: false,
+            }}
+          />
+          <Stack.Screen
+            name="Home"
+            component={Home}
+            options={{
+              headerShown: false,
+            }}
+          />
+          <Stack.Screen
+            name="Details"
+            component={CoffeeDetails}
+            options={{
+              headerShown: false,
+            }}
+          />
+          <Stack.Screen
+            name="Order"
+            component={CoffeeOrder}
+            options={{
+              headerShown: false,
+            }}
+          />
+          <Stack.Screen
+            name="Delivery"
+            component={CoffeeDelivery}
             options={{
               headerShown: false,
             }}
