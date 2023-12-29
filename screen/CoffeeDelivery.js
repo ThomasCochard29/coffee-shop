@@ -8,6 +8,7 @@ import {
 import React from "react";
 import { useNavigation } from "@react-navigation/native";
 import { SafeAreaView } from "react-native-safe-area-context";
+import MapView, { Marker } from "react-native-maps";
 
 // THEME
 import { COLORS, TYPO } from "../theme";
@@ -16,10 +17,22 @@ export default function CoffeeDelivery() {
   const navigation = useNavigation();
 
   return (
-    <ImageBackground
-      source={require("../assets/Image/maps.png")}
-      style={{ flex: 1 }}
-    >
+    <>
+      <MapView
+        initialRegion={{
+          latitude: 37.78825,
+          longitude: -122.4324,
+          latitudeDelta: 0.0922,
+          longitudeDelta: 0.0421,
+        }}
+        style={{ flex: 1 }}
+      >
+        <Marker
+          coordinate={{latitude: 37.78825, longitude: -122.4324}}
+          title={"Delivery Order"}
+          description={"Your order is delivery"}
+        />
+      </MapView>
       <SafeAreaView>
         <View>
           <View
@@ -261,6 +274,6 @@ export default function CoffeeDelivery() {
           </View>
         </View>
       </View>
-    </ImageBackground>
+    </>
   );
 }
