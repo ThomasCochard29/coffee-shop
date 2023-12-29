@@ -1,0 +1,179 @@
+{
+    "Cappuccino": [
+        {
+            "id": "1",
+            "name": "Cappuccino",
+            "description": "with Chocolate",
+            "long_description": "A cappuccino is an approximately 150 ml (5 oz) beverage, crafted with 25 ml of bold espresso coffee and carefully blended with 85 ml of silky smooth fresh milk. The addition of a touch of chocolate enhances the flavor, creating a delightful and harmonious experience. Indulge in the perfect balance of rich espresso, creamy milk, and decadent chocolate.",
+            "price": "4.53",
+            "image": "coffee.png",
+            "star": "4.8",
+            "taille": ["S", "M", "L"]
+        }, {
+            "id": "2",
+            "name": "Caramel Cappuccino",
+            "description": "Cappuccino with rich caramel flavor",
+            "long_description": "Experience luxury in a cup with our Caramel Cappuccino. This 150 ml (5 oz) beverage features 25 ml of robust espresso coffee and 85 ml of frothy, velvety fresh milk. The rich caramel flavor adds a decadent twist, providing a truly indulgent and satisfying treat. Treat yourself to the perfect blend of caramel sweetness and coffee boldness.",
+            "price": "4.99",
+            "image": "coffee.png",
+            "star": "4.9",
+            "taille": ["S", "M", "L"]
+        }, {
+            "id": "3",
+            "name": "Hazelnut Cappuccino",
+            "description": "Cappuccino with a hint of hazelnut",
+            "long_description": "Savor the unique blend of flavors in our Hazelnut Cappuccino. This 150 ml (5 oz) beverage is meticulously crafted with 25 ml of intense espresso coffee and 85 ml of creamy fresh milk. The subtle hint of hazelnut adds a delightful twist, creating a sophisticated and comforting drink. Immerse yourself in the harmonious balance of espresso, milk, and nutty undertones.",
+            "price": "5.25",
+            "image": "coffee.png",
+            "star": "4.8",
+            "taille": ["S", "M", "L"]
+        }, {
+            "id": "4",
+            "name": "Vanilla Cappuccino",
+            "description": "Cappuccino with smooth vanilla notes",
+            "long_description": "Unwind with the comforting blend of our Vanilla Cappuccino. This 150 ml (5 oz) beverage is expertly prepared with 25 ml of espresso coffee and 85 ml of velvety fresh milk. The addition of smooth vanilla notes enhances the flavor, creating a soothing and aromatic experience. Immerse yourself in the perfect combination of coffee richness and vanilla sweetness.",
+            "price": "4.75",
+            "image": "coffee.png",
+            "star": "4.9",
+            "taille": ["S", "M", "L"]
+        }, {
+            "id": "5",
+            "name": "Mocha Cappuccino",
+            "description": "Cappuccino with chocolate and a touch of coffee",
+            "long_description": "Indulge your senses with our Mocha Cappuccino. This 150 ml (5 oz) beverage features 25 ml of bold espresso coffee and 85 ml of creamy fresh milk, perfectly balanced with the rich and decadent addition of chocolate. Immerse yourself in the delightful fusion of coffee and chocolate flavors, creating a luxurious and satisfying treat.",
+            "price": "5.50",
+            "image": "coffee.png",
+            "star": "4.8",
+            "taille": ["S", "M", "L"]
+        }
+    ],
+    "Machiato": [
+        {
+            "id": "1",
+            "name": "Caramel Macchiato",
+            "description": "Espresso with caramel and frothy milk",
+            "long_description": "Elevate your coffee experience with our Caramel Macchiato. This exquisite 150 ml (5 oz) beverage is crafted with 25 ml of bold espresso coffee, topped with a generous swirl of caramel, and finished with 85 ml of frothy milk. Indulge in the perfect harmony of intense espresso, sweet caramel, and velvety milk, creating a luxurious and satisfying drink.",
+            "price": "4.95",
+            "image": "coffee.png",
+            "star": "4.8"
+        }, {
+            "id": "2",
+            "name": "Hazelnut Macchiato",
+            "description": "Espresso with hazelnut and a dollop of frothy milk",
+            "long_description": "Discover the rich flavors of our Hazelnut Macchiato. This 150 ml (5 oz) beverage features 25 ml of robust espresso coffee, adorned with the nutty essence of hazelnut, and complemented by 85 ml of frothy milk. Immerse yourself in the delightful balance of bold espresso, nutty undertones, and creamy milk, creating a truly indulgent experience.",
+            "price": "5.15",
+            "image": "coffee.png",
+            "star": "4.8"
+        }, {
+            "id": "3",
+            "name": "Vanilla Macchiato",
+            "description": "Espresso with vanilla and frothy milk",
+            "long_description": "Experience the smooth elegance of our Vanilla Macchiato. This 150 ml (5 oz) beverage is carefully crafted with 25 ml of intense espresso coffee, infused with the sweet essence of vanilla, and topped with 85 ml of frothy milk. Immerse yourself in the perfect balance of bold espresso, sweet vanilla, and velvety milk, creating a sophisticated and satisfying drink.",
+            "price": "5.35",
+            "image": "coffee.png",
+            "star": "4.8"
+        }, {
+            "id": "4",
+            "name": "Coconut Macchiato",
+            "description": "Espresso with coconut flavor and frothy milk",
+            "long_description": "Transport yourself to a tropical paradise with our Coconut Macchiato. This 150 ml (5 oz) beverage features 25 ml of robust espresso coffee, infused with the exotic flavor of coconut, and topped with 85 ml of frothy milk. Immerse yourself in the delightful fusion of bold espresso, tropical coconut, and creamy milk, creating a luxurious and satisfying drink.",
+            "price": "5.25",
+            "image": "coffee.png",
+            "star": "4.8"
+        }, {
+            "id": "5",
+            "name": "Toffee Macchiato",
+            "description": "Espresso with toffee flavor and frothy milk",
+            "long_description": "Indulge in the sweet sophistication of our Toffee Macchiato. This 150 ml (5 oz) beverage features 25 ml of intense espresso coffee, infused with the rich flavor of toffee, and complemented by 85 ml of frothy milk. Immerse yourself in the delightful balance of bold espresso, sweet toffee, and velvety milk, creating a truly indulgent and satisfying experience.",
+            "price": "5.50",
+            "image": "coffee.png",
+            "star": "4.8"
+        }
+    ],
+    "Latte": [
+        {
+            "id": "1",
+            "name": "Classic Latte",
+            "description": "Smooth espresso with steamed milk",
+            "long_description": "Experience the timeless elegance of our Classic Latte. This 150 ml (5 oz) beverage features 25 ml of smooth espresso coffee, expertly blended with 85 ml of steamed milk. Immerse yourself in the harmonious balance of bold espresso and creamy milk, creating a classic and satisfying drink.",
+            "price": "4.75",
+            "image": "coffee.png",
+            "star": "4.8"
+        }, {
+            "id": "2",
+            "name": "Vanilla Latte",
+            "description": "Latte with a hint of vanilla",
+            "long_description": "Savor the subtle sweetness of our Vanilla Latte. This 150 ml (5 oz) beverage features 25 ml of smooth espresso coffee, infused with a hint of vanilla, and expertly blended with 85 ml of steamed milk. Immerse yourself in the delightful balance of bold espresso, sweet vanilla, and creamy milk, creating a sophisticated and satisfying drink.",
+            "price": "5.25",
+            "image": "coffee.png",
+            "star": "4.8"
+        }, {
+            "id": "3",
+            "name": "Caramel Latte",
+            "description": "Latte with rich caramel flavor",
+            "long_description": "Indulge in the luxurious flavor of our Caramel Latte. This 150 ml (5 oz) beverage features 25 ml of smooth espresso coffee, expertly blended with 85 ml of steamed milk and enriched with the decadent taste of rich caramel. Immerse yourself in the delightful balance of bold espresso, creamy milk, and sweet caramel, creating a truly indulgent experience.",
+            "price": "5.50",
+            "image": "coffee.png",
+            "star": "4.8"
+        }, {
+            "id": "4",
+            "name": "Chai Latte",
+            "description": "Latte with spiced chai flavors",
+            "long_description": "Awaken your senses with our Chai Latte. This 150 ml (5 oz) beverage features 25 ml of smooth espresso coffee, expertly blended with 85 ml of steamed milk and infused with the exotic and aromatic spices of chai. Immerse yourself in the delightful balance of bold espresso, creamy milk, and spiced chai flavors, creating a unique and satisfying drink.",
+            "price": "4.99",
+            "image": "coffee.png",
+            "star": "4.8"
+        }, {
+            "id": "5",
+            "name": "Maple Pecan Latte",
+            "description": "Latte with maple and pecan flavors",
+            "long_description": "Experience the warmth of our Maple Pecan Latte. This 150 ml (5 oz) beverage features 25 ml of smooth espresso coffee, expertly blended with 85 ml of steamed milk and infused with the rich and nutty flavors of maple and pecan. Immerse yourself in the delightful balance of bold espresso, creamy milk, and the comforting taste of maple and pecan, creating a truly satisfying drink.",
+            "price": "5.75",
+            "image": "coffee.png",
+            "star": "4.8"
+        }
+    ],
+    "American": [
+        {
+            "id": "1",
+            "name": "Classic Americano",
+            "description": "Diluted espresso with hot water",
+            "long_description": "Experience the simplicity of our Classic Americano. This 150 ml (5 oz) beverage is created with 25 ml of intense espresso coffee, carefully diluted with hot water. Immerse yourself in the bold and straightforward flavors of espresso, creating a classic and satisfying drink.",
+            "price": "3.75",
+            "image": "coffee.png",
+            "star": "4.8"
+        }, {
+            "id": "2",
+            "name": "Black Americano",
+            "description": "Strong black coffee with hot water",
+            "long_description": "Embrace the boldness of our Black Americano. This 150 ml (5 oz) beverage features 25 ml of robust black coffee, carefully diluted with hot water. Immerse yourself in the rich and strong flavors of black coffee, creating a bold and satisfying drink.",
+            "price": "3.50",
+            "image": "coffee.png",
+            "star": "4.8"
+        }, {
+            "id": "3",
+            "name": "White Americano",
+            "description": "Espresso with hot water and a splash of milk",
+            "long_description": "Indulge in the smoothness of our White Americano. This 150 ml (5 oz) beverage features 25 ml of intense espresso coffee, delicately diluted with hot water and finished with a splash of creamy milk. Immerse yourself in the perfect balance of bold espresso, velvety milk, and the simplicity of hot water, creating a luxurious and satisfying drink.",
+            "price": "4.25",
+            "image": "coffee.png",
+            "star": "4.8"
+        }, {
+            "id": "4",
+            "name": "Cinnamon Americano",
+            "description": "Americano with a touch of cinnamon",
+            "long_description": "Awaken your senses with our Cinnamon Americano. This 150 ml (5 oz) beverage features 25 ml of intense espresso coffee, carefully diluted with hot water and infused with a delightful touch of cinnamon. Immerse yourself in the bold flavors of espresso, the warmth of cinnamon, and the simplicity of hot water, creating a unique and satisfying drink.",
+            "price": "4.15",
+            "image": "coffee.png",
+            "star": "4.8"
+        }, {
+            "id": "5",
+            "name": "Honey Almond Americano",
+            "description": "Americano with honey and almond flavors",
+            "long_description": "Experience the sweetness of our Honey Almond Americano. This 150 ml (5 oz) beverage features 25 ml of intense espresso coffee, carefully diluted with hot water and infused with the delightful flavors of honey and almond. Immerse yourself in the bold and sweet harmony of espresso, honey, and almond, creating a truly satisfying and indulgent drink.",
+            "price": "4.50",
+            "image": "coffee.png",
+            "star": "4.8"
+        }
+    ]
+}

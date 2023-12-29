@@ -4,6 +4,10 @@ export const COLORS = {
   white: "#fff",
   blackLinear: "rgba(0, 0, 0, 0)",
   gray: "#A9A9A9",
+  linearHomePrimary: "#131313",
+  linearHomeSecondary: "#313131",
+  promo: "#ED5151",
+  whiteGray: "#FAFAFA"
 };
 
 export const TYPO = {

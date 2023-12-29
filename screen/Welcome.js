@@ -9,7 +9,7 @@ import { COLORS, TYPO } from "../theme";
 // Component
 import Button from "../components/Button";
 
-export default function Welcome() {
+export default function Welcome({ navigation }) {
   return (
     <View style={s.body}>
       <StatusBar style="inverted" backgroundColor="transparent" />
@@ -27,7 +27,10 @@ export default function Welcome() {
           <Text style={s.subtitle}>
             The best grain, the finest roast, the powerful flavor.
           </Text>
-          <Button />
+          <Button
+            onPress={() => navigation.navigate("Home")}
+            title={"Get Started"}
+          />
         </View>
       </LinearGradient>
     </View>
